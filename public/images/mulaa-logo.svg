@@ -1,0 +1,6 @@
+<svg width="120" height="32" viewBox="0 0 120 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M12 6L18 16L12 26L6 16L12 6Z" fill="#D4AF37"/>
+  <path d="M28 8C28 4 24 2 22 4C20 2 16 4 16 8C16 12 22 18 22 18C22 18 28 12 28 8Z" fill="#4A2C5F" fillOpacity="0.8"/>
+  <text x="42" y="22" fontFamily="Playfair Display, serif" fontSize="20" fontWeight="bold" fill="#4A2C5F">Mulaa</text>
+  <text x="106" y="22" fontFamily="Inter, sans-serif" fontSize="16" fill="#D4AF37">Company</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg width="140" height="32" viewBox="0 0 140 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Diamond symbol representing technology/innovation -->
+  <path d="M12 6L18 14L12 22L6 14L12 6Z" fill="#4A2C5F"/>
+  
+  <!-- Heart symbol representing soul/emotion -->
+  <path d="M28 12C28 8 24 6 22 8C20 6 16 8 16 12C16 16 22 20 22 20C22 20 28 16 28 12Z" fill="#D4AF37"/>
+  
+  <!-- Company name with proper fonts -->
+  <text x="42" y="22" fontFamily="Playfair Display, Georgia, serif" fontSize="20" fontWeight="bold" fill="#4A2C5F">Mulaa</text>
+  <text x="106" y="22" fontFamily="Inter, Arial, sans-serif" fontSize="16" fontWeight="500" fill="#D4AF37">Company</text>
+  
+  <!-- Small tagline -->
+  <text x="42" y="28" fontFamily="Inter, Arial, sans-serif" fontSize="8" fill="#5F9EA0">tech with souls</text>
+</svg>
