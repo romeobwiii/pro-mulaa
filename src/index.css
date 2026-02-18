@@ -263,3 +263,35 @@
 .animate-spin-slow {
   animation: spin-slow 3s linear infinite;
 }
+
+/* Ad styling */
+.adsbygoogle {
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.ad-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90px;
+  background: rgba(0,0,0,0.02);
+  border-radius: 8px;
+}
+
+/* Responsive ads */
+@media (max-width: 768px) {
+  .adsbygoogle {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+/* Ad labels */
+.ad-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999;
+  text-align: center;
+  margin-bottom: 4px;
+}
