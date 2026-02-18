@@ -1,16 +1,14 @@
 import React from 'react';
-import { Outlet, useLocation } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
+import { Outlet } from 'react-router-dom';
 import CardNav from '../navigation/CardNav';
 import Footer from './Footer';
 import Logo from '../shared/Logo';
 import BrandedCursor from '../animations/BrandedCursor';
-import PageTransition from './PageTransition';
+// Optional: Import if you want manual ads alongside Auto Ads
+// import { LeaderboardAd } from '../shared/AdDisplay';
 import { navItems, brandColors } from '../../data/navigationData';
 
 const Layout = () => {
-  const location = useLocation();
-
   return (
     <>
       <BrandedCursor />
@@ -27,11 +25,21 @@ const Layout = () => {
           ease="power3.out"
         />
         
+        {/* 
+          With Auto Ads enabled in index.html, 
+          Google will automatically place ads here.
+          No manual ad code needed unless you want specific placements.
+        */}
+        
+        {/* Optional: If you want a specific manual ad at the top */}
+        {/* <LeaderboardAd slot="YOUR_MANUAL_SLOT_ID" /> */}
+        
         <main className="flex-grow pt-20">
-          <PageTransition>
-            <Outlet />
-          </PageTransition>
+          <Outlet />
         </main>
+        
+        {/* Optional: If you want a specific manual ad at the bottom */}
+        {/* <LeaderboardAd slot="YOUR_MANUAL_SLOT_ID" /> */}
         
         <Footer />
       </div>
